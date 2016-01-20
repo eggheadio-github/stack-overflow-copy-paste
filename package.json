@@ -1,7 +1,7 @@
 {
   "name": "stack-overflow-copy-paste",
-  "version": "1.0.0",
   "description": "Utility functions copy/pasted (and modified slightly) from Stack Overflow",
+  "version": "0.0.0-semantically-released",
   "main": "dist/index.js",
   "scripts": {
     "commit": "git-cz",
@@ -9,11 +9,12 @@
     "clean": "rimraf dist && mkdir dist",
     "build": "babel src/ -d dist/",
     "test": "ava --require babel-register",
-    "lint": "eslint src/"
+    "lint": "eslint src/",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eggheadio-github/stack-overflow-copy-paste.git"
+    "url": "https://github.com/eggheadio-github/stack-overflow-copy-paste.git"
   },
   "keywords": [],
   "files": [
@@ -38,7 +39,8 @@
     "ghooks": "1.0.3",
     "nodemon": "1.8.1",
     "rimraf": "2.5.0",
-    "validate-commit-msg": "1.1.1"
+    "validate-commit-msg": "1.1.1",
+    "semantic-release": "4.3.5"
   },
   "config": {
     "ghooks": {
