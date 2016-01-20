@@ -1,0 +1,61 @@
+{
+  "name": "stack-overflow-copy-paste",
+  "version": "1.0.0",
+  "description": "Utility functions copy/pasted (and modified slightly) from Stack Overflow",
+  "main": "dist/index.js",
+  "scripts": {
+    "commit": "git-cz",
+    "prebuild": "npm run lint && npm run clean",
+    "clean": "rimraf dist && mkdir dist",
+    "build": "babel src/ -d dist/",
+    "test": "ava --require babel-register",
+    "lint": "eslint src/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eggheadio-github/stack-overflow-copy-paste.git"
+  },
+  "keywords": [],
+  "files": [
+    "dist"
+  ],
+  "author": "Kent C. Dodds <kent@doddsfamily.us> (http://kentcdodds.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eggheadio-github/stack-overflow-copy-paste/issues"
+  },
+  "homepage": "https://github.com/eggheadio-github/stack-overflow-copy-paste#readme",
+  "devDependencies": {
+    "ava": "0.10.0",
+    "babel-cli": "6.4.5",
+    "babel-preset-es2015": "6.3.13",
+    "babel-preset-stage-2": "6.3.13",
+    "babel-register": "6.4.3",
+    "commitizen": "2.5.0",
+    "cz-conventional-changelog": "1.1.5",
+    "eslint": "1.10.3",
+    "eslint-config-kentcdodds": "5.0.1",
+    "ghooks": "1.0.3",
+    "nodemon": "1.8.1",
+    "rimraf": "2.5.0",
+    "validate-commit-msg": "1.1.1"
+  },
+  "config": {
+    "ghooks": {
+      "commit-msg": "validate-commit-msg",
+      "pre-commit": "npm t && npm run build"
+    },
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-2"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "kentcdodds"
+  }
+}
