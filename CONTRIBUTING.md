@@ -9,6 +9,28 @@ a new issue, indicating that you should check out the guidelines first:
 
 ![contributing-notice](other/contributing-notice.png)
 
+## Acceptable Contributions
+
+This package's purpose is really kind of useless as a node package. I created it to
+demonstrate how to contribute to Open Source projects. However, I still have standards!
+I only accept pull requests that:
+
+- fix bugs for existing functions
+- enhance the API or implementation of an existing function
+- adds a function that is only slightly modified from a StackOverflow answer
+- is tested (see the `test` directory; we use [`ava`](http://npm.im/ava))
+
+In the case of adding a new function, that function must:
+
+- NOT add anything to the prototype of built-in objects (one of StackOverflow's favorite things to do)
+- be exported in the `src/index.js` file
+
+All code must follow the styles dictated by ESLint. As long as you don't skip the git hooks,
+you shouldn't need to worry about missing something.
+
+Also, **please discuss any changes in the issues** before working on a PR to make sure
+that I'll accept it before you spend time working on it.
+
 ## Set up instructions
 
 1. Fork the repo
