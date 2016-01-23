@@ -51,7 +51,7 @@
   "config": {
     "ghooks": {
       "commit-msg": "validate-commit-msg",
-      "pre-commit": "npm run cover && npm run check-coverage && npm run build"
+      "pre-commit": "npm run cover && npm run build"
     },
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
