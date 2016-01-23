@@ -7,8 +7,12 @@
     "commit": "git-cz",
     "prebuild": "npm run lint && npm run clean",
     "clean": "rimraf dist && mkdir dist",
+    "cover": "nyc --reporter lcov --reporter text npm t",
+    "check-coverage": "nyc check-coverage --statements 100 --branches 100 --functions 100 --lines 100",
+    "report-coverage": "cat ./coverage/lcov.info | codecov",
     "build": "babel src/ -d dist/",
     "test": "ava --require babel-register",
+    "test:watch": "nodemon --exec npm t",
     "lint": "eslint src/",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
@@ -38,14 +42,15 @@
     "eslint-config-kentcdodds": "5.0.1",
     "ghooks": "1.0.3",
     "nodemon": "1.8.1",
+    "nyc": "5.3.0",
     "rimraf": "2.5.0",
-    "validate-commit-msg": "1.1.1",
-    "semantic-release": "4.3.5"
+    "semantic-release": "4.3.5",
+    "validate-commit-msg": "1.1.1"
   },
   "config": {
     "ghooks": {
       "commit-msg": "validate-commit-msg",
-      "pre-commit": "npm t && npm run build"
+      "pre-commit": "npm run cover && npm run check-coverage && npm run build"
     },
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
