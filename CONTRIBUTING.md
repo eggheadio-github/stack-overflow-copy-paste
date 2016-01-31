@@ -33,6 +33,10 @@ that I'll accept it before you spend time working on it.
 
 ## Set up instructions
 
+First of all, this is a JavaScript project that's distributed on [npmjs.org](https://npmjs.org) and
+therefore uses JavaScript tooling based on [Node.js](https://nodejs.org/) with dependencies from npm.
+You're going to need to have those things installed to contribute to this project.
+
 1. Fork the repo
 2. Clone your fork
 3. Create a branch
