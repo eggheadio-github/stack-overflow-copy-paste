@@ -1,5 +1,5 @@
 import test from 'ava'
-import flatten from '../src/flatten'
+import {flatten} from '../src'
 
 test('flattens an array of arrays', t => {
   const original = [[1, 2], 3, [4, 5]]

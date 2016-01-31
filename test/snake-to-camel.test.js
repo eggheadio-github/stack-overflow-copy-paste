@@ -1,5 +1,5 @@
 import test from 'ava'
-import snakeToCamel from '../src/snake-to-camel'
+import {snakeToCamel} from '../src'
 
 test('converts snake-case to camelCase', t => {
   const original = 'snake-case-string'
