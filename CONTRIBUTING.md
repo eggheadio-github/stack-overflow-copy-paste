@@ -24,6 +24,7 @@ In the case of adding a new function, that function must:
 
 - NOT add anything to the prototype of built-in objects (one of StackOverflow's favorite things to do)
 - be exported in the `src/index.js` file
+- document where the original source came from
 
 All code must follow the styles dictated by ESLint. As long as you don't skip the git hooks,
 you shouldn't need to worry about missing something.
