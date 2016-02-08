@@ -1,5 +1,8 @@
 # Contributing
 
+**Working on your first Pull Request?** You can learn how from this *free* series
+[How to Contribute to an Open Source Project on GitHub](https://egghead.io/series/how-to-contribute-to-an-open-source-project-on-github)
+
 You **always** want to look at this file *before* contributing. In here you should find
 steps that you need to take to set up your development environment as well as instructions
 for coding standards and contributing guidelines.
