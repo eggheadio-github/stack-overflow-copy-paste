@@ -1,6 +1,6 @@
 export default snakeToCamel
 
-const regex = /(\-\w)/g
+const regex = /([\-_]\w)/g
 
 /**
  * Original Source: http://stackoverflow.com/a/6661012/971592

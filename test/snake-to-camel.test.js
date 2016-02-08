@@ -8,3 +8,9 @@ test('converts snake-case to camelCase', t => {
   t.same(actual, expected)
 })
 
+test('converts snake_case to camelCase', t => {
+  const original = 'snake_case_string'
+  const expected = 'snakeCaseString'
+  const actual = snakeToCamel(original)
+  t.same(actual, expected)
+})
