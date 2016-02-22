@@ -48,7 +48,7 @@ You're going to need to have those things installed to contribute to this projec
 5. Run `npm t && npm run build`. If everything works, then you're ready to make changes.
 6. Run `npm run test:watch`. See that it's watching your file system for changes.
 7. Make your changes and try to make the tests pass. If you can't or need help then commit what you have with `--no-verify` and make a PR
-8. If you get things working, add your changed files with `git add` and run `npm run commit` to get an interactive prompt for creating a commit message that follows [our standards](https://github.com/ajoslin/conventional-changelog/blob/master/conventions/angular.md). You'll notice that there are git hooks in place which will run testing, linting, etc. (unless you commit with `--no-verify`).
+8. If you get things working, add your changed files with `git add` and run `npm run commit` to get an interactive prompt for creating a commit message that follows [our standards](https://github.com/stevemao/conventional-changelog-angular/blob/master/convention.md). You'll notice that there are git hooks in place which will run testing, linting, etc. (unless you commit with `--no-verify`).
 9. Push your changes to your fork with `git push`
 10. Create a pull request.
 11. Iterate on the solution.
