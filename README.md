@@ -23,6 +23,17 @@ flatten([[1, 2,], 3]) // [1, 2, 3]
 snakeToCamel('snake-case-string') // 'snakeCaseString'
 ```
 
+## Contributors
+
+Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
+
+Contributor | Contributions
+--- | ---
+[![Kent C. Dodds](https://avatars1.githubusercontent.com/u/1500684?s=130)](http://kentcdodds.com) | [💻](https://github.com/eggheadio-github/stack-overflow-copy-paste/commits?author=kentcdodds) ❓ 📖 ⚠️ [📹](http://kcd.im/pull-request) 
+
+This project follows the [all-contributors](https://github.com/kentcdodds/all-contributors) specification.
+Contributions of any kind welcome!
+
 ## LICENSE
 
 MIT
