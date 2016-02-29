@@ -7,3 +7,12 @@ test('flattens an array of arrays', t => {
   const actual = flatten(original)
   t.same(actual, expected)
 })
+
+test('flattens multiple arrays', t => {
+  const original1 = [[1, 2], 3, [4, 5]]
+  const original2 = ['A', 'b', ['C', ['d', 'E']]]
+  const original3 = [true, false, true, false]
+  const expected = [1, 2, 3, 4, 5, 'A', 'b', 'C', 'd', 'E', true, false, true, false]
+  const actual = flatten(original1, original2, original3)
+  t.same(actual, expected)
+})
