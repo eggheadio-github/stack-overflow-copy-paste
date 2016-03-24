@@ -11,5 +11,6 @@ export default flatten
 function flatten() {
   return [].slice.call(arguments).reduce(function flattenReducer(flat, toFlatten) {
     return flat.concat(Array.isArray(toFlatten) ? flatten.apply(null, toFlatten) : toFlatten)
+    
   }, [])
 }
