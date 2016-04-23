@@ -10,9 +10,8 @@ export default getQueryStringParam
  * @return {String} - the value
  */
 function getQueryStringParam(url, name) {
-  const regexReadyName = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]')
+  const regexReadyName = name.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&')
   const regex = new RegExp('[\\?&]' + regexReadyName + '=([^&#]*)')
   const results = regex.exec(url)
   return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '))
 }
-
