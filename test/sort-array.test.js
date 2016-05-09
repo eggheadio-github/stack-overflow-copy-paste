@@ -11,6 +11,6 @@ test('sort an array of strings ascending', t => {
 test('sort an array of strings descending', t => {
   const original = ['apple','orange','peach','banana'];
   const expected = ['peach','orange','banana','apple'];
-  const actual = snakeToCamel(original,'desc');
+  const actual = sortArray(original,'desc');
   t.same(actual, expected);
 });
