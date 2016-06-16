@@ -4,6 +4,7 @@ import snakeToCamel from './snake-to-camel'
 import padLeft from './pad-left'
 import randomInteger from './random-integer'
 import arrayFill from './array-fill'
+import sortObjectsArray from './sort-objects-array'
 
 export {
   flatten,
@@ -12,4 +13,5 @@ export {
   padLeft,
   randomInteger,
   arrayFill,
+  sortObjectsArray
 }
