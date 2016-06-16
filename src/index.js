@@ -13,5 +13,5 @@ export {
   padLeft,
   randomInteger,
   arrayFill,
-  sortObjectsArray
+  sortObjectsArray,
 }
