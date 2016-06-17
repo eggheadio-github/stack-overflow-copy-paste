@@ -1,10 +1,7 @@
 export default flatten
-
-/**
+/*
  * Original Source: http://stackoverflow.com/a/15030117/971592
- *
  * This method will flatten arrays given to it.
- *
  * @param {...Array} arrays - The array(s) to flatten
  * @return {Array} - The flattened array
  */
