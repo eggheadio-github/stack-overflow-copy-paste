@@ -7,7 +7,7 @@ test('pads left of the given string', t => {
   const padLength = 5
   const padWith = 'z'
   const actual = padLeft(original, padLength, padWith)
-  t.same(actual, expected)
+  t.deepEqual(actual, expected)
 })
 
 test('defaults to pad a zero', t => {
@@ -15,7 +15,7 @@ test('defaults to pad a zero', t => {
   const expected = '00123'
   const padLength = 5
   const actual = padLeft(original, padLength)
-  t.same(actual, expected)
+  t.deepEqual(actual, expected)
 })
 
 test('does not pad a string longer than the pad length', t => {
@@ -23,6 +23,6 @@ test('does not pad a string longer than the pad length', t => {
   const expected = '1234'
   const padLength = 3
   const actual = padLeft(original, padLength)
-  t.same(actual, expected)
+  t.deepEqual(actual, expected)
 })
 

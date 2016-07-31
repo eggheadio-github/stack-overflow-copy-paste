@@ -7,12 +7,12 @@ test('gets the given parameter', t => {
   const name = 'utm_campaign'
   const expected = 'contributing-to-open-source'
   const actual = getQueryStringParam(url, name)
-  t.same(actual, expected)
+  t.deepEqual(actual, expected)
 })
 
 test('returns an empty string if param does not exist', t => {
   const name = 'missing-thing'
   const expected = ''
   const actual = getQueryStringParam(url, name)
-  t.same(actual, expected)
+  t.deepEqual(actual, expected)
 })

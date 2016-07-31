@@ -13,7 +13,7 @@ test('sort an array of objects by ascending order', t => {
         {Name:"AAA", Surname:"ZZZ"}
     ]
     const actual = original.slice(0).sort(sortObjectsArray('Surname'))
-    t.same(actual, expected)
+    t.deepEqual(actual, expected)
 })
 
 test('sort an array of objects by descending order', t => {
@@ -28,7 +28,7 @@ test('sort an array of objects by descending order', t => {
         {Name: "Name", Surname: "AAA"}
     ]
     const actual = original.slice(0).sort(sortObjectsArray('-Surname'))
-    t.same(actual, expected)
+    t.deepEqual(actual, expected)
 })
 
 test('will not sort the an array if the property doesn\'t exist', t => {
@@ -38,6 +38,6 @@ test('will not sort the an array if the property doesn\'t exist', t => {
         {Name: "Name", Surname: "AAA"}
     ]
     const actual = original.slice(0).sort(sortObjectsArray('Middle'))
-    t.same(actual, original)
+    t.deepEqual(actual, original)
 })
 

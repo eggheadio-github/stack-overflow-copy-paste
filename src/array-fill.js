@@ -1,3 +1,4 @@
+/* eslint prefer-spread:0 */
 export default fill
 
 /**
@@ -12,4 +13,3 @@ export default fill
 function fill(array, value) {
   return Array.apply(null, array).map(value.constructor.prototype.valueOf, value)
 }
-
