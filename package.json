@@ -9,7 +9,7 @@
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "build": "babel src/ -d dist/",
     "test": "cross-env NODE_ENV=test nyc ava",
-    "test:watch": "ava --watch",
+    "test:watch": "ava --watch --require babel-register",
     "lint": "eslint src/",
     "validate": "npm-run-all lint test build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
