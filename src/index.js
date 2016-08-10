@@ -5,6 +5,8 @@ import padLeft from './pad-left'
 import randomInteger from './random-integer'
 import arrayFill from './array-fill'
 import sortObjectsArray from './sort-objects-array'
+import objectValuesToString from './object-values-to-string'
+
 
 export {
   flatten,
@@ -14,4 +16,5 @@ export {
   randomInteger,
   arrayFill,
   sortObjectsArray,
+  objectValuesToString,
 }
