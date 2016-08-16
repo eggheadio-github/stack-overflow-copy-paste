@@ -6,6 +6,7 @@ import randomInteger from './random-integer'
 import arrayFill from './array-fill'
 import sortObjectsArray from './sort-objects-array'
 import objectValuesToString from './object-values-to-string'
+import getObjectSize from './get-object-size'
 
 
 export {
@@ -17,4 +18,5 @@ export {
   arrayFill,
   sortObjectsArray,
   objectValuesToString,
+  getObjectSize,
 }
