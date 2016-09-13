@@ -11,9 +11,5 @@ export default getObjectSize
  * */
 
 function getObjectSize(obj) {
-  if (Array.isArray(obj)) {
-    return obj.length
-  } else {
-    return Object.keys(obj).length
-  }
+  return Object.keys(obj).length
 }
