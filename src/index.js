@@ -8,6 +8,7 @@ import sortObjectsArray from './sort-objects-array'
 import objectValuesToString from './object-values-to-string'
 import getObjectSize from './get-object-size'
 import isArray from './is-array'
+import validateEmail from './validateEmail'
 
 export {
   flatten,
@@ -20,4 +21,5 @@ export {
   objectValuesToString,
   getObjectSize,
   isArray,
+  validateEmail,
 }
