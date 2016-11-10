@@ -11,6 +11,7 @@ import isArray from './is-array'
 import validateEmail from './validateEmail'
 import hex2rgb from './hex2rgb'
 import isNullOrWhitespace from './is-null-or-whitespace'
+import startsWith from './startsWith'
 
 export {
   flatten,
@@ -26,4 +27,5 @@ export {
   validateEmail,
   hex2rgb,
   isNullOrWhitespace,
+  startsWith,
 }
