@@ -15,4 +15,5 @@ test('flattens multiple arrays', t => {
   const expected = [1, 2, 3, 4, 5, 'A', 'b', 'C', 'd', 'E', true, false, true, false]
   const actual = flatten(original1, original2, original3)
   t.deepEqual(actual, expected)
+  
 })
