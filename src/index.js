@@ -12,6 +12,7 @@ import validateEmail from './validateEmail'
 import hex2rgb from './hex2rgb'
 import isNullOrWhitespace from './is-null-or-whitespace'
 import startsWith from './startsWith'
+import removeDuplicates from './remove-duplicates'
 
 export {
   flatten,
@@ -28,4 +29,5 @@ export {
   hex2rgb,
   isNullOrWhitespace,
   startsWith,
+  removeDuplicates,
 }
