@@ -13,6 +13,7 @@ import hex2rgb from './hex2rgb'
 import isNullOrWhitespace from './is-null-or-whitespace'
 import startsWith from './startsWith'
 import removeDuplicates from './remove-duplicates'
+import add from './add'
 
 export {
   flatten,
@@ -30,4 +31,5 @@ export {
   isNullOrWhitespace,
   startsWith,
   removeDuplicates,
+  add,
 }
