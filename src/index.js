@@ -14,6 +14,7 @@ import isNullOrWhitespace from './is-null-or-whitespace'
 import startsWith from './startsWith'
 import removeDuplicates from './remove-duplicates'
 import add from './add'
+import subtract from './subtract'
 
 export {
   flatten,
@@ -32,4 +33,5 @@ export {
   startsWith,
   removeDuplicates,
   add,
+  subtract,
 }
