@@ -15,6 +15,7 @@ import startsWith from './startsWith'
 import removeDuplicates from './remove-duplicates'
 import add from './add'
 import subtract from './subtract'
+import divide from './divide'
 
 export {
   flatten,
@@ -34,4 +35,5 @@ export {
   removeDuplicates,
   add,
   subtract,
+  divide,
 }
