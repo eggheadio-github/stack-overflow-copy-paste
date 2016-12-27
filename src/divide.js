@@ -9,5 +9,5 @@ export default Divide
  * @return {Number} - Result of Division
  */
 function Divide(div1, div2) {
-  return div1/div2;s
+  return div1 / div2
 }

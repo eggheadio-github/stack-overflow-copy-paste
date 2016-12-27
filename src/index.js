@@ -35,5 +35,5 @@ export {
   removeDuplicates,
   add,
   subtract,
-  divide
+  divide,
 }
