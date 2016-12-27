@@ -1,4 +1,4 @@
-export default Divide
+export default divide
 
 /**
  * @module Divide
@@ -8,6 +8,6 @@ export default Divide
  * @param {Number} div2 - the number to be divided with, divisor
  * @return {Number} - Result of Division
  */
-function Divide(div1, div2) {
+function divide(div1, div2) {
   return div1 / div2
 }
