@@ -16,6 +16,7 @@ import removeDuplicates from './remove-duplicates'
 import add from './add'
 import subtract from './subtract'
 import divide from './divide'
+import multiply from './multiply'
 
 export {
   flatten,
@@ -36,4 +37,5 @@ export {
   add,
   subtract,
   divide,
+  multiply,
 }
