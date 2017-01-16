@@ -18,6 +18,7 @@ import subtract from './subtract'
 import divide from './divide'
 import multiply from './multiply'
 import square from './square'
+
 export {
   flatten,
   snakeToCamel,
