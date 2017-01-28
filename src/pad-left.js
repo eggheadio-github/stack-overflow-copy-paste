@@ -18,4 +18,3 @@ function padLeft(str, size, padWith) {
     return Array(size - str.length + 1).join(padWith || '0') + str
   }
 }
-
