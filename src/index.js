@@ -18,6 +18,7 @@ import subtract from './subtract'
 import divide from './divide'
 import multiply from './multiply'
 import square from './square'
+import sum from './sum'
 
 export {
   flatten,
@@ -40,4 +41,5 @@ export {
   divide,
   multiply,
   square,
+  sum,
 }

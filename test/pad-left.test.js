@@ -25,4 +25,3 @@ test('does not pad a string longer than the pad length', t => {
   const actual = padLeft(original, padLength)
   t.deepEqual(actual, expected)
 })
-
