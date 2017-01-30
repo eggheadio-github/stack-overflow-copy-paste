@@ -8,11 +8,13 @@ test('string is not a number', t => {
   t.deepEqual(actual, expected)
 })
 
-test('number is less than zero', t => {
+test('throws error if number is less than zero', t => {
   const original = '-123'
-  const expected = 'Only works for positive integers'
-  const actual = dec2bin(original)
-  t.deepEqual(actual, expected)
+  //const actual = dec2bin(original)
+  const error = t.throws(() => {
+    dec2bin(original)
+  },RangeError)
+  t.is(error.message, 'Input must be a positive integer')
 })
 
 test('outputs binary version as string', t => {
