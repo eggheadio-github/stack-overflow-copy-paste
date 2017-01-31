@@ -19,6 +19,7 @@ import divide from './divide'
 import multiply from './multiply'
 import square from './square'
 import sum from './sum'
+import dec2bin from './dec2bin'
 
 export {
   flatten,
@@ -42,4 +43,5 @@ export {
   multiply,
   square,
   sum,
+  dec2bin,
 }
