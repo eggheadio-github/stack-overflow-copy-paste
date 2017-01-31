@@ -11,7 +11,7 @@ export default dec2bin
  */
 function dec2bin(dec) {
   if (parseInt(dec, 10) < 0) {
-    return 'Only works for positive integers'
+    throw new RangeError('Input must be a positive integer')
   } else {
     return parseInt(dec, 10).toString(2)
   }
