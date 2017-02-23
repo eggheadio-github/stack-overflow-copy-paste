@@ -11,6 +11,7 @@ import isArray from './is-array'
 import validateEmail from './validateEmail'
 import hex2rgb from './hex2rgb'
 import isNullOrWhitespace from './is-null-or-whitespace'
+import isToday from './is-today'
 import startsWith from './startsWith'
 import removeDuplicates from './remove-duplicates'
 import add from './add'
@@ -35,6 +36,7 @@ export {
   validateEmail,
   hex2rgb,
   isNullOrWhitespace,
+  isToday,
   startsWith,
   removeDuplicates,
   add,
