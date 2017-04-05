@@ -21,6 +21,7 @@ import multiply from './multiply'
 import square from './square'
 import sum from './sum'
 import dec2bin from './dec2bin'
+import searchAndReplace from './search-and-replace'
 
 export {
   flatten,
@@ -46,4 +47,5 @@ export {
   square,
   sum,
   dec2bin,
+  searchAndReplace,
 }
