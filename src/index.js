@@ -1,3 +1,5 @@
+
+import reduce from './reduce-to-tally'
 import flatten from './flatten'
 import getQueryStringParam from './get-query-string-param'
 import snakeToCamel from './snake-to-camel'
@@ -24,6 +26,7 @@ import dec2bin from './dec2bin'
 import searchAndReplace from './search-and-replace'
 
 export {
+  reduce,
   flatten,
   snakeToCamel,
   getQueryStringParam,
