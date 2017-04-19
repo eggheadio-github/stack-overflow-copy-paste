@@ -1,9 +1,9 @@
-
 import reduce from './reduce-to-tally'
 import flatten from './flatten'
 import getQueryStringParam from './get-query-string-param'
 import snakeToCamel from './snake-to-camel'
 import padLeft from './pad-left'
+import padRight from './pad-right'
 import randomInteger from './random-integer'
 import arrayFill from './array-fill'
 import sortObjectsArray from './sort-objects-array'
@@ -26,29 +26,30 @@ import dec2bin from './dec2bin'
 import searchAndReplace from './search-and-replace'
 
 export {
-  reduce,
-  flatten,
-  snakeToCamel,
-  getQueryStringParam,
-  padLeft,
-  randomInteger,
-  arrayFill,
-  sortObjectsArray,
-  objectValuesToString,
-  getObjectSize,
-  isArray,
-  validateEmail,
-  hex2rgb,
-  isNullOrWhitespace,
-  isToday,
-  startsWith,
-  removeDuplicates,
-  add,
-  subtract,
-  divide,
-  multiply,
-  square,
-  sum,
-  dec2bin,
-  searchAndReplace,
+    reduce,
+    flatten,
+    snakeToCamel,
+    getQueryStringParam,
+    padLeft,
+    padRight,
+    randomInteger,
+    arrayFill,
+    sortObjectsArray,
+    objectValuesToString,
+    getObjectSize,
+    isArray,
+    validateEmail,
+    hex2rgb,
+    isNullOrWhitespace,
+    isToday,
+    startsWith,
+    removeDuplicates,
+    add,
+    subtract,
+    divide,
+    multiply,
+    square,
+    sum,
+    dec2bin,
+    searchAndReplace,
 }
