@@ -1,8 +1,8 @@
 export default initArray
 
-
 /**
- * Original Source: http://stackoverflow.com/questions/1295584/most-efficient-way-to-create-a-zero-filled-javascript-array
+ * Original Source:
+ * http://stackoverflow.com/questions/1295584/most-efficient-way-to-create-a-zero-filled-javascript-array
  *
  * This method will return an array with the given length, prefilled with given value
  *
@@ -11,5 +11,5 @@ export default initArray
  * @return {Array} - The prefilled array
  */
 function initArray(len, value) {
-  return new Array(len).fill(value);
+  return new Array(len).fill(value)
 }
