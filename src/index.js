@@ -1,4 +1,5 @@
 
+import initArray from './init-array'
 import reduce from './reduce-to-tally'
 import flatten from './flatten'
 import getQueryStringParam from './get-query-string-param'
@@ -26,6 +27,7 @@ import dec2bin from './dec2bin'
 import searchAndReplace from './search-and-replace'
 
 export {
+  initArray,
   reduce,
   flatten,
   snakeToCamel,
