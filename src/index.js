@@ -24,6 +24,7 @@ import square from './square'
 import sum from './sum'
 import dec2bin from './dec2bin'
 import searchAndReplace from './search-and-replace'
+import sqrt from './sqrt'
 
 export {
   reduce,
@@ -51,4 +52,5 @@ export {
   sum,
   dec2bin,
   searchAndReplace,
+  sqrt,
 }
