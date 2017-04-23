@@ -26,6 +26,7 @@ import sum from './sum'
 import dec2bin from './dec2bin'
 import searchAndReplace from './search-and-replace'
 import sqrt from './sqrt'
+import toPower from './to-power'
 
 export {
   initArray,
@@ -55,4 +56,5 @@ export {
   dec2bin,
   searchAndReplace,
   sqrt,
+  toPower,
 }
