@@ -27,6 +27,7 @@ import dec2bin from './dec2bin'
 import searchAndReplace from './search-and-replace'
 import sqrt from './sqrt'
 import toPower from './to-power'
+import mod from './mod'
 
 export {
   initArray,
@@ -57,4 +58,5 @@ export {
   searchAndReplace,
   sqrt,
   toPower,
+  mod,
 }
