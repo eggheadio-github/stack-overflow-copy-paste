@@ -28,6 +28,7 @@ import searchAndReplace from './search-and-replace'
 import sqrt from './sqrt'
 import toPower from './to-power'
 import mod from './mod'
+import swapCase from './swap-case'
 
 export {
   initArray,
@@ -59,4 +60,5 @@ export {
   sqrt,
   toPower,
   mod,
+  swapCase,
 }
