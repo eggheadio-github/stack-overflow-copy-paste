@@ -28,6 +28,7 @@ import sqrt from './sqrt'
 import toPower from './to-power'
 import mod from './mod'
 import shallowEqual from './shallow-equal'
+import swapCase from './swap-case'
 
 export {
   initArray,
@@ -60,4 +61,5 @@ export {
   toPower,
   mod,
   shallowEqual,
+  swapCase,
 }
