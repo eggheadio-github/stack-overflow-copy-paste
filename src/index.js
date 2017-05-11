@@ -1,4 +1,3 @@
-
 import initArray from './init-array'
 import reduce from './reduce-to-tally'
 import flatten from './flatten'
@@ -28,6 +27,7 @@ import searchAndReplace from './search-and-replace'
 import sqrt from './sqrt'
 import toPower from './to-power'
 import mod from './mod'
+import shallowEqual from './shallow-equal'
 import swapCase from './swap-case'
 
 export {
@@ -60,5 +60,6 @@ export {
   sqrt,
   toPower,
   mod,
+  shallowEqual,
   swapCase,
 }
