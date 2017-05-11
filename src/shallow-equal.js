@@ -1,29 +1,35 @@
-export default shallowObject
+export default shallowEqual
 
 /**
  * This method will shallow compare two objects
  *
- * @param {Object} a - first object to compare
- * @param {Object} b - second object to compare
+ * @param {Object} objA - first object to compare
+ * @param {Object} objB - second object to compare
  * @returns {boolean} - result of comparison - true if objects are shallow equal
  */
-function shallowObject(a, b) {
-  let ka = 0
-  let kb = 0
+function shallowEqual(objA, objB) {
+  if (objA === objB) {
+    return true
+  }
 
-  for (const key in a) {
-    if (a.hasOwnProperty(key) && a[key] !== b[key]) {
+  if (typeof objA !== 'object' || objA === null ||
+    typeof objB !== 'object' || objB === null) {
+    return false
+  }
+
+  const keysA = Object.keys(objA)
+  const keysB = Object.keys(objB)
+
+  if (keysA.length !== keysB.length) {
+    return false
+  }
+
+  const bHasOwnProperty = Object.prototype.hasOwnProperty.bind(objB)
+  for (let i = 0; i < keysA.length; i++) {
+    if (!bHasOwnProperty(keysA[i]) || objA[keysA[i]] !== objB[keysA[i]]) {
       return false
     }
-
-    ka++
   }
 
-  for (const key in b) {
-    if (b.hasOwnProperty(key)) {
-      kb++
-    }
-  }
-
-  return ka === kb
+  return true
 }
