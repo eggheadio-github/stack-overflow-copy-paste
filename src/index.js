@@ -29,6 +29,7 @@ import toPower from './to-power'
 import mod from './mod'
 import shallowEqual from './shallow-equal'
 import swapCase from './swap-case'
+import endsWith from './endsWith'
 
 export {
   initArray,
@@ -62,4 +63,5 @@ export {
   mod,
   shallowEqual,
   swapCase,
+  endsWith,
 }
