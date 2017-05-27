@@ -30,6 +30,7 @@ import mod from './mod'
 import shallowEqual from './shallow-equal'
 import swapCase from './swap-case'
 import endsWith from './endsWith'
+import round from './round'
 
 export {
   initArray,
@@ -64,4 +65,5 @@ export {
   shallowEqual,
   swapCase,
   endsWith,
+  round,
 }
