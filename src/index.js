@@ -31,6 +31,7 @@ import shallowEqual from './shallow-equal'
 import swapCase from './swap-case'
 import endsWith from './endsWith'
 import round from './round'
+import checkPalindrome from './checkPalindrome'
 
 export {
   initArray,
@@ -66,4 +67,5 @@ export {
   swapCase,
   endsWith,
   round,
+  checkPalindrome,
 }
