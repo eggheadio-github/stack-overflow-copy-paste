@@ -8,5 +8,6 @@ export default add
  * @return {Number} - Result of addition
  */
 function add(num1, num2) {
+
   return num1 + num2
 }
