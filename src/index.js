@@ -1,3 +1,4 @@
+import revstring from './revstring'
 import initArray from './init-array'
 import reduce from './reduce-to-tally'
 import flatten from './flatten'
@@ -34,6 +35,7 @@ import round from './round'
 import checkPalindrome from './checkPalindrome'
 
 export {
+  revstring,
   initArray,
   reduce,
   flatten,
