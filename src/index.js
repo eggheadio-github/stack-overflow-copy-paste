@@ -33,6 +33,7 @@ import swapCase from './swap-case'
 import endsWith from './endsWith'
 import round from './round'
 import checkPalindrome from './checkPalindrome'
+import isFunction from './is-function'
 
 export {
   revstring,
@@ -70,4 +71,5 @@ export {
   endsWith,
   round,
   checkPalindrome,
+  isFunction,
 }
