@@ -1,3 +1,4 @@
+import isEven from './is-even'
 import revstring from './revstring'
 import initArray from './init-array'
 import reduce from './reduce-to-tally'
@@ -35,6 +36,7 @@ import round from './round'
 import checkPalindrome from './checkPalindrome'
 
 export {
+  isEven,
   revstring,
   initArray,
   reduce,
