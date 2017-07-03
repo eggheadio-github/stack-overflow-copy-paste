@@ -8,6 +8,7 @@ test('pads left of the given string', t => {
   const padWith = 'z'
   const actual = padLeft(original, padLength, padWith)
   t.deepEqual(actual, expected)
+
 })
 
 test('defaults to pad a zero', t => {
