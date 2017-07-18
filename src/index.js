@@ -22,7 +22,7 @@ import add from './add'
 import subtract from './subtract'
 import divide from './divide'
 import multiply from './multiply'
-import object-to-arraylist from './object-to-arraylist'
+import convertObj from './objectToArraylist'
 import square from './square'
 import sum from './sum'
 import dec2bin from './dec2bin'
@@ -62,6 +62,7 @@ export {
   subtract,
   divide,
   multiply,
+  convertObj,
   square,
   sum,
   dec2bin,
