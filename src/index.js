@@ -20,6 +20,7 @@ import startsWith from './startsWith'
 import removeDuplicates from './remove-duplicates'
 import add from './add'
 import subtract from './subtract'
+import subtraction from './subtraction'
 import divide from './divide'
 import multiply from './multiply'
 import square from './square'
@@ -74,4 +75,6 @@ export {
   round,
   checkPalindrome,
   isFunction,
+  subtraction,
 }
+
