@@ -37,6 +37,7 @@ import round from './round'
 import checkPalindrome from './checkPalindrome'
 import isFunction from './is-function'
 import isOdd from './is-odd'
+import isNumeric from './is-numeric'
 
 export {
   isOdd,
@@ -78,5 +79,6 @@ export {
   checkPalindrome,
   isFunction,
   subtraction,
+  isNumeric,
 }
 
