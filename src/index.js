@@ -81,5 +81,5 @@ export {
   isFunction,
   subtraction,
   isNumeric,
-  max
+  max,
 }
