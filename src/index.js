@@ -39,6 +39,7 @@ import isFunction from './is-function'
 import isOdd from './is-odd'
 import isNumeric from './is-numeric'
 import max from './max'
+import isPair from './is-pair'
 
 export {
   isOdd,
@@ -82,4 +83,5 @@ export {
   subtraction,
   isNumeric,
   max,
+  isPair,
 }
