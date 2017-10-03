@@ -24,6 +24,7 @@ import subtraction from './subtraction'
 import divide from './divide'
 import multiply from './multiply'
 import square from './square'
+import cube from './cube'
 import sum from './sum'
 import dec2bin from './dec2bin'
 import searchAndReplace from './search-and-replace'
@@ -67,6 +68,7 @@ export {
   divide,
   multiply,
   square,
+  cube,
   sum,
   dec2bin,
   searchAndReplace,
