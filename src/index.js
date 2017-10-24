@@ -41,6 +41,7 @@ import isOdd from './is-odd'
 import isNumeric from './is-numeric'
 import max from './max'
 import slugify from './slugify'
+import convertToRoman from './convertToRoman'
 
 export {
   isOdd,
@@ -86,4 +87,5 @@ export {
   isNumeric,
   max,
   slugify,
+  convertToRoman,
 }
