@@ -43,6 +43,7 @@ import max from './max'
 import slugify from './slugify'
 import convertToRoman from './convertToRoman'
 import gcd from './gcd'
+import range from './range'
 
 export {
   isOdd,
@@ -90,4 +91,5 @@ export {
   slugify,
   convertToRoman,
   gcd,
+  range,
 }
