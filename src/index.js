@@ -44,6 +44,7 @@ import slugify from './slugify'
 import convertToRoman from './convertToRoman'
 import gcd from './gcd'
 import range from './range'
+import contains from './contains'
 
 export {
   isOdd,
@@ -92,4 +93,5 @@ export {
   convertToRoman,
   gcd,
   range,
+  contains,
 }
