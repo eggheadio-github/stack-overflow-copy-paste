@@ -8,8 +8,8 @@
     "prebuild": "rimraf dist",
     "report-coverage": "cat ./coverage/lcov.info | codecov",
     "build": "babel src/ -d dist/",
-    "test": "cross-env NODE_ENV=test nyc ava",
-    "test:watch": "ava --watch --require babel-register",
+    "test": "cross-env NODE_ENV=test nyc ava --concurrency 5",
+    "test:watch": "ava --watch --require babel-register --concurrency 5",
     "lint": "eslint src/",
     "validate": "npm-run-all lint test build",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post"
