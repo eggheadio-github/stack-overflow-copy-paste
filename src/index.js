@@ -45,6 +45,7 @@ import convertToRoman from './convertToRoman'
 import gcd from './gcd'
 import range from './range'
 import contains from './contains'
+import getOrdinalSuffix from './get-ordinal-suffix'
 
 export {
   isOdd,
@@ -94,4 +95,5 @@ export {
   gcd,
   range,
   contains,
+  getOrdinalSuffix,
 }
