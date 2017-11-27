@@ -1,6 +1,7 @@
 import test from 'ava'
 import {padLeft} from '../src'
 
+
 test('pads left of the given string', t => {
   const original = '123'
   const expected = 'zz123'

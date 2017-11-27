@@ -1,5 +1,4 @@
 export default padLeft
-
 /**
  * Original Source: http://stackoverflow.com/a/34083277/971592
  *
