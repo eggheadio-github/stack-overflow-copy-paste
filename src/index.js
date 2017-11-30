@@ -46,6 +46,7 @@ import gcd from './gcd'
 import range from './range'
 import contains from './contains'
 import getOrdinalSuffix from './get-ordinal-suffix'
+import arrayAverage from './array-average'
 
 export {
   isOdd,
@@ -96,4 +97,5 @@ export {
   range,
   contains,
   getOrdinalSuffix,
+  arrayAverage,
 }
