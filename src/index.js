@@ -47,6 +47,7 @@ import range from './range'
 import contains from './contains'
 import getOrdinalSuffix from './get-ordinal-suffix'
 import arrayAverage from './array-average'
+import find from './find'
 
 export {
   isOdd,
@@ -54,6 +55,7 @@ export {
   revstring,
   initArray,
   reduce,
+  find,
   flatten,
   snakeToCamel,
   getQueryStringParam,
