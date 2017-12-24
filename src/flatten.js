@@ -12,4 +12,5 @@ function flatten(...args) {
   return args.reduce(function flattenReducer(flat, toFlatten) {
     return flat.concat(Array.isArray(toFlatten) ? flatten(...toFlatten) : toFlatten)
   }, [])
+  
 }
