@@ -48,6 +48,7 @@ import contains from './contains'
 import getOrdinalSuffix from './get-ordinal-suffix'
 import arrayAverage from './array-average'
 import find from './find'
+import median from './array-median'
 
 export {
   isOdd,
@@ -100,4 +101,5 @@ export {
   contains,
   getOrdinalSuffix,
   arrayAverage,
+  median,
 }
