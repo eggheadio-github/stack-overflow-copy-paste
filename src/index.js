@@ -1,4 +1,5 @@
 import isEven from './is-even'
+import capitalizeFirstLetter from './convert-first-letter-to-capital'
 import revstring from './revstring'
 import initArray from './init-array'
 import reduce from './reduce-to-tally'
@@ -52,6 +53,7 @@ import median from './array-median'
 
 export {
   isOdd,
+  capitalizeFirstLetter,
   isEven,
   revstring,
   initArray,
