@@ -50,6 +50,7 @@ import getOrdinalSuffix from './get-ordinal-suffix'
 import arrayAverage from './array-average'
 import find from './find'
 import median from './array-median'
+import timeDifference from './timeDifference'
 
 export {
   isOdd,
@@ -104,4 +105,5 @@ export {
   getOrdinalSuffix,
   arrayAverage,
   median,
+  timeDifference,
 }
