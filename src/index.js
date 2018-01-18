@@ -51,6 +51,7 @@ import arrayAverage from './array-average'
 import find from './find'
 import median from './array-median'
 import timeDifference from './timeDifference'
+import isPrime from './is-prime'
 
 export {
   isOdd,
@@ -106,4 +107,5 @@ export {
   arrayAverage,
   median,
   timeDifference,
+  isPrime,
 }
