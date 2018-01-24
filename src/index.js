@@ -107,5 +107,5 @@ export {
   arrayAverage,
   median,
   timeDifference,
-  isPrime,
+  isPrime
 }
