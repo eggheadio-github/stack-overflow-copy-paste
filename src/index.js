@@ -19,6 +19,7 @@ import isNullOrWhitespace from './is-null-or-whitespace'
 import isToday from './is-today'
 import startsWith from './startsWith'
 import removeDuplicates from './remove-duplicates'
+import removeFalsy from './remove-falsy'
 import add from './add'
 import subtract from './subtract'
 import subtraction from './subtraction'
@@ -77,6 +78,7 @@ export {
   isToday,
   startsWith,
   removeDuplicates,
+  removeFalsy,
   add,
   subtract,
   divide,
