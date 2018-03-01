@@ -53,6 +53,7 @@ import find from './find'
 import median from './array-median'
 import timeDifference from './timeDifference'
 import isPrime from './is-prime'
+import swapElements from './swapElements'
 
 export {
   isOdd,
@@ -110,4 +111,5 @@ export {
   median,
   timeDifference,
   isPrime,
+  swapElements,
 }
