@@ -1,7 +1,7 @@
 /**
  * Created by HP on 3/1/2018.
  */
-export default swapElements;
+export default swapElements
 
 
 /**
@@ -9,12 +9,12 @@ export default swapElements;
  *
  * This function swaps elements at indexes 'a' and 'b' in array 'target'
  *
- * @param x {Number} - the first index in the array 'target'
- * @param y {Number} - the second index in the array 'target'
- * @param list {Array} - targeted array
+ * @param {Number} x - the first index in the array 'target'
+ * @param {Number} y - the second index in the array 'target'
+ * @param {Array} list - targeted array
  */
-function swapElements(x,y, list){
-    var b = list[y];
-    list[y] = list[x];
-    list[x] = b;
+function swapElements(x, y, list) {
+  const b = list[y]
+  list[y] = list[x]
+  list[x] = b
 }

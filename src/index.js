@@ -111,5 +111,5 @@ export {
   median,
   timeDifference,
   isPrime,
-  swapElements
+  swapElements,
 }
