@@ -55,6 +55,7 @@ import timeDifference from './timeDifference'
 import isPrime from './is-prime'
 import swapElements from './swapElements'
 import reverse from './reverse'
+import removeAccents from './remove-accents'
 
 export {
   isOdd,
@@ -114,4 +115,5 @@ export {
   isPrime,
   swapElements,
   reverse,
+  removeAccents,
 }
