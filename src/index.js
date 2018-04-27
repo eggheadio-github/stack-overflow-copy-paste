@@ -56,6 +56,7 @@ import isPrime from './is-prime'
 import swapElements from './swapElements'
 import reverse from './reverse'
 import removeAccents from './remove-accents'
+import getQueryStringValue from './get-query-string-value'
 
 export {
   isOdd,
@@ -116,4 +117,5 @@ export {
   swapElements,
   reverse,
   removeAccents,
+  getQueryStringValue,
 }
