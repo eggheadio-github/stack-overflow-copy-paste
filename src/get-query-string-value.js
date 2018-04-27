@@ -12,9 +12,6 @@ export default getQueryStringValue
  */
 
 function getQueryStringValue(name, url) {
-  if (!url) {
-    url = window.location.href
-  }
 
   name = name.replace(/[\[\]]/g, '\\$&')
   const regex = new RegExp(`[?&]${name}(=([^&#]*)|&|#|$)`)
