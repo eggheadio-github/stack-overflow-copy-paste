@@ -32,6 +32,7 @@ import dec2bin from './dec2bin'
 import searchAndReplace from './search-and-replace'
 import sqrt from './sqrt'
 import toPower from './to-power'
+import truncate from './truncate'
 import mod from './mod'
 import shallowEqual from './shallow-equal'
 import swapCase from './swap-case'
@@ -94,6 +95,7 @@ export {
   searchAndReplace,
   sqrt,
   toPower,
+  truncate,
   mod,
   shallowEqual,
   swapCase,
