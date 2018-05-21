@@ -1,3 +1,4 @@
+import reverseArrayInPlace from './reverseArrayInPlace'
 import isEven from './is-even'
 import capitalizeFirstLetter from './convert-first-letter-to-capital'
 import revstring from './revstring'
@@ -61,6 +62,7 @@ import removeAccents from './remove-accents'
 import getQueryStringValue from './get-query-string-value'
 
 export {
+  reverseArrayInPlace,
   isOdd,
   capitalizeFirstLetter,
   isEven,
