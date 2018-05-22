@@ -61,6 +61,7 @@ import reverse from './reverse'
 import removeAccents from './remove-accents'
 import getQueryStringValue from './get-query-string-value'
 import isLeapYear from './leap-year'
+import removeElementFromArray from './removeElementFromArray'
 
 export {
   reverseArrayInPlace,
@@ -126,4 +127,5 @@ export {
   getQueryStringValue,
   lessThan,
   isLeapYear,
+  removeElementFromArray,
 }
