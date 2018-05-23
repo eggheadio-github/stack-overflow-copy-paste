@@ -123,5 +123,5 @@ export {
   removeAccents,
   getQueryStringValue,
   lessThan,
-  isLeapYear
+  isLeapYear,
 }
