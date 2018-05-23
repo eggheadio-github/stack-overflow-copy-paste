@@ -59,6 +59,7 @@ import swapElements from './swapElements'
 import reverse from './reverse'
 import removeAccents from './remove-accents'
 import getQueryStringValue from './get-query-string-value'
+import isLeapYear from './leap-year'
 
 export {
   isOdd,
@@ -122,4 +123,5 @@ export {
   removeAccents,
   getQueryStringValue,
   lessThan,
+  isLeapYear
 }
