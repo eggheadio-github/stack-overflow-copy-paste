@@ -62,6 +62,7 @@ import removeAccents from './remove-accents'
 import getQueryStringValue from './get-query-string-value'
 import isLeapYear from './leap-year'
 import removeElementFromArray from './removeElementFromArray'
+import generatePassword from './generate-password'
 
 export {
   reverseArrayInPlace,
@@ -128,4 +129,5 @@ export {
   lessThan,
   isLeapYear,
   removeElementFromArray,
+  generatePassword,
 }
