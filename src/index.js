@@ -63,6 +63,7 @@ import getQueryStringValue from './get-query-string-value'
 import isLeapYear from './leap-year'
 import removeElementFromArray from './removeElementFromArray'
 import generatePassword from './generate-password'
+import tail from './tail'
 
 export {
   reverseArrayInPlace,
@@ -130,4 +131,5 @@ export {
   isLeapYear,
   removeElementFromArray,
   generatePassword,
+  tail,
 }
