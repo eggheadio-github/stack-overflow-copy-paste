@@ -64,6 +64,7 @@ import isLeapYear from './leap-year'
 import removeElementFromArray from './removeElementFromArray'
 import generatePassword from './generate-password'
 import tail from './tail'
+import makeObjectIterable from './makeObjectIterable'
 
 export {
   reverseArrayInPlace,
@@ -132,4 +133,5 @@ export {
   removeElementFromArray,
   generatePassword,
   tail,
+  makeObjectIterable,
 }
