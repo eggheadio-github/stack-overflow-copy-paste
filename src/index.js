@@ -65,6 +65,7 @@ import removeElementFromArray from './removeElementFromArray'
 import generatePassword from './generate-password'
 import tail from './tail'
 import makeObjectIterable from './makeObjectIterable'
+import fibonacciSum from './fibonacciSum'
 
 export {
   reverseArrayInPlace,
@@ -134,4 +135,5 @@ export {
   generatePassword,
   tail,
   makeObjectIterable,
+  fibonacciSum,
 }
