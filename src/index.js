@@ -66,6 +66,7 @@ import generatePassword from './generate-password'
 import tail from './tail'
 import makeObjectIterable from './makeObjectIterable'
 import fibonacciSum from './fibonacciSum'
+import lcm from './lcm'
 
 export {
   reverseArrayInPlace,
@@ -136,4 +137,5 @@ export {
   tail,
   makeObjectIterable,
   fibonacciSum,
+  lcm,
 }
