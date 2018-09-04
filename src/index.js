@@ -67,6 +67,7 @@ import tail from './tail'
 import makeObjectIterable from './makeObjectIterable'
 import fibonacciSum from './fibonacciSum'
 import lcm from './lcm'
+import occurrences from './occurrences'
 
 export {
   reverseArrayInPlace,
@@ -138,4 +139,5 @@ export {
   makeObjectIterable,
   fibonacciSum,
   lcm,
+  occurrences,
 }
