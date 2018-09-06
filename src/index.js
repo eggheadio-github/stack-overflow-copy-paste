@@ -68,6 +68,7 @@ import makeObjectIterable from './makeObjectIterable'
 import fibonacciSum from './fibonacciSum'
 import lcm from './lcm'
 import occurrences from './occurrences'
+import getMiddle from './getMiddle'
 
 export {
   reverseArrayInPlace,
@@ -140,4 +141,5 @@ export {
   fibonacciSum,
   lcm,
   occurrences,
+  getMiddle,
 }
