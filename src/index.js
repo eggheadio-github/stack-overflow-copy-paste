@@ -69,6 +69,7 @@ import fibonacciSum from './fibonacciSum'
 import lcm from './lcm'
 import occurrences from './occurrences'
 import getMiddle from './getMiddle'
+import debounce from './debounce'
 
 export {
   reverseArrayInPlace,
@@ -142,4 +143,5 @@ export {
   lcm,
   occurrences,
   getMiddle,
+  debounce,
 }
