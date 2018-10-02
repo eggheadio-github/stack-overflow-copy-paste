@@ -70,6 +70,7 @@ import lcm from './lcm'
 import occurrences from './occurrences'
 import getMiddle from './getMiddle'
 import debounce from './debounce'
+import curry from './curry'
 
 export {
   reverseArrayInPlace,
@@ -144,4 +145,5 @@ export {
   occurrences,
   getMiddle,
   debounce,
+  curry,
 }
