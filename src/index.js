@@ -71,6 +71,7 @@ import occurrences from './occurrences'
 import getMiddle from './getMiddle'
 import debounce from './debounce'
 import curry from './curry'
+import removeProperty from './removeProperty'
 
 export {
   reverseArrayInPlace,
@@ -146,4 +147,5 @@ export {
   getMiddle,
   debounce,
   curry,
+  removeProperty,
 }
