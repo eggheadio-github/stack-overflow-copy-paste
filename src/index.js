@@ -71,6 +71,7 @@ import occurrences from './occurrences'
 import getMiddle from './getMiddle'
 import debounce from './debounce'
 import curry from './curry'
+import textJustification from './textJustification'
 import removeProperty from './removeProperty'
 
 export {
@@ -147,5 +148,6 @@ export {
   getMiddle,
   debounce,
   curry,
+  textJustification,
   removeProperty,
 }
