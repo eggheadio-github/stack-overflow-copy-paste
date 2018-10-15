@@ -70,3 +70,5 @@ function textJustification(input, L) {
   }
   return output
 }
+
+/* eslint complexity: "off", max-depth: "off" */
