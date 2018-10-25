@@ -30,6 +30,7 @@ import multiply from './multiply'
 import square from './square'
 import cube from './cube'
 import sum from './sum'
+import dec2hex from './dec2hex'
 import dec2bin from './dec2bin'
 import searchAndReplace from './search-and-replace'
 import sqrt from './sqrt'
@@ -150,4 +151,5 @@ export {
   curry,
   textJustification,
   removeProperty,
+  dec2hex,
 }
