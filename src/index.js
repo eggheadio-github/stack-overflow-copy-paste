@@ -75,6 +75,7 @@ import curry from './curry'
 import textJustification from './textJustification'
 import removeProperty from './removeProperty'
 import temperatureConverter from './temperatureConverter'
+import last from './last'
 
 export {
   reverseArrayInPlace,
@@ -154,4 +155,5 @@ export {
   removeProperty,
   dec2hex,
   temperatureConverter,
+  last,
 }
