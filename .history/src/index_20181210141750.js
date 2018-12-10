@@ -77,7 +77,6 @@ import removeProperty from './removeProperty'
 import temperatureConverter from './temperatureConverter'
 import last from './last'
 import descendingOrder from './descending-order'
-import reduceCount from './reduceCount'
 
 export {
   reverseArrayInPlace,
@@ -159,5 +158,4 @@ export {
   temperatureConverter,
   last,
   descendingOrder,
-  reduceCount,
 }
