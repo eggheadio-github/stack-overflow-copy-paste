@@ -76,6 +76,7 @@ import textJustification from './textJustification'
 import removeProperty from './removeProperty'
 import temperatureConverter from './temperatureConverter'
 import last from './last'
+import descendingOrder from './descending-order'
 
 export {
   reverseArrayInPlace,
@@ -156,4 +157,5 @@ export {
   dec2hex,
   temperatureConverter,
   last,
+  descendingOrder,
 }
