@@ -78,6 +78,7 @@ import temperatureConverter from './temperatureConverter'
 import last from './last'
 import descendingOrder from './descending-order'
 import reduceCount from './reduceCount'
+import BitwiseAnd from './BitwiseAnd'
 
 export {
   reverseArrayInPlace,
@@ -160,4 +161,5 @@ export {
   last,
   descendingOrder,
   reduceCount,
+  BitwiseAnd,
 }
