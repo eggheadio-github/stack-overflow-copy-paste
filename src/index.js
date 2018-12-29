@@ -79,6 +79,7 @@ import last from './last'
 import descendingOrder from './descending-order'
 import reduceCount from './reduceCount'
 import BitwiseAnd from './BitwiseAnd'
+import copyArrayByValue from './copyArrayByValue'
 
 export {
   reverseArrayInPlace,
@@ -162,4 +163,5 @@ export {
   descendingOrder,
   reduceCount,
   BitwiseAnd,
+  copyArrayByValue,
 }
