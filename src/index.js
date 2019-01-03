@@ -80,6 +80,7 @@ import descendingOrder from './descending-order'
 import reduceCount from './reduceCount'
 import BitwiseAnd from './BitwiseAnd'
 import copyArrayByValue from './copyArrayByValue'
+import timeSince from './timeSince'
 
 export {
   reverseArrayInPlace,
@@ -164,4 +165,5 @@ export {
   reduceCount,
   BitwiseAnd,
   copyArrayByValue,
+  timeSince,
 }
