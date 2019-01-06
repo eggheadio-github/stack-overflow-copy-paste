@@ -7,6 +7,7 @@ export default toPower
  * @param {Number} num2 - the exponent for the calculation
  * @return {Number} - Result of toPower
  */
+
 function toPower(num1, num2) {
   return num1 ** num2
 }
