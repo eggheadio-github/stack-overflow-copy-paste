@@ -82,6 +82,7 @@ import BitwiseAnd from './BitwiseAnd'
 import copyArrayByValue from './copyArrayByValue'
 import timeSince from './timeSince'
 import first from './first'
+import mode from './mode-array'
 
 export {
   reverseArrayInPlace,
@@ -168,4 +169,5 @@ export {
   copyArrayByValue,
   timeSince,
   first,
+  mode,
 }
