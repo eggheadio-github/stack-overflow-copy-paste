@@ -83,6 +83,7 @@ import copyArrayByValue from './copyArrayByValue'
 import timeSince from './timeSince'
 import first from './first'
 import mode from './mode-array'
+import rollDice from './rollDice'
 
 export {
   reverseArrayInPlace,
@@ -170,4 +171,5 @@ export {
   timeSince,
   first,
   mode,
+  rollDice,
 }
