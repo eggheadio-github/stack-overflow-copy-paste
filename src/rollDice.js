@@ -9,5 +9,5 @@ export default rollDice
  */
 
 function rollDice() {
-    return Math.floor(6*Math.random())+1;
+  return Math.floor(6 * Math.random()) + 1
 }
