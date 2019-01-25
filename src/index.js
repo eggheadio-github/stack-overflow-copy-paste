@@ -84,6 +84,7 @@ import timeSince from './timeSince'
 import first from './first'
 import mode from './mode-array'
 import rollDice from './rollDice'
+import inchesToMetric from './inches-to-metric'
 
 export {
   reverseArrayInPlace,
@@ -172,4 +173,5 @@ export {
   first,
   mode,
   rollDice,
+  inchesToMetric,
 }
