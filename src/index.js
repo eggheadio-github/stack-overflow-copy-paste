@@ -85,6 +85,7 @@ import first from './first'
 import mode from './mode-array'
 import rollDice from './rollDice'
 import inchesToMetric from './inches-to-metric'
+import numberToString from './numberToString'
 
 export {
   reverseArrayInPlace,
@@ -174,4 +175,5 @@ export {
   mode,
   rollDice,
   inchesToMetric,
+  numberToString,
 }
