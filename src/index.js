@@ -27,6 +27,7 @@ import getOrdinalSuffix from './get-ordinal-suffix'
 import getQueryStringParam from './get-query-string-param'
 import getQueryStringValue from './get-query-string-value'
 import getMiddle from './getMiddle'
+import hex2hsl from './hex2hsl'
 import hex2rgb from './hex2rgb'
 import inchesToMetric from './inches-to-metric'
 import initArray from './init-array'
@@ -178,4 +179,5 @@ export {
   inchesToMetric,
   numberToString,
   largest,
+  hex2hsl,
 }
