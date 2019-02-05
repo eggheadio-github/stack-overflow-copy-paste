@@ -88,6 +88,7 @@ import timeSince from './timeSince'
 import toPower from './to-power'
 import truncate from './truncate'
 import validateEmail from './validateEmail'
+import removeElementByIndex from './removeElementByIndex'
 
 export {
   reverseArrayInPlace,
@@ -180,4 +181,5 @@ export {
   numberToString,
   largest,
   hex2hsl,
+  removeElementByIndex,
 }
