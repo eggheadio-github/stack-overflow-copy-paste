@@ -13,3 +13,8 @@ function flatten(...args) {
     return flat.concat(Array.isArray(toFlatten) ? flatten(...toFlatten) : toFlatten)
   }, [])
 }
+
+function test()
+{
+	return(1,2);
+}
