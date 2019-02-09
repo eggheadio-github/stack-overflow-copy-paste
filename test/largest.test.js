@@ -1,5 +1,5 @@
 import test from 'ava'
-import { largest } from '../src'
+import {largest} from '../src'
 
 test('gets largest number from array', t => {
   const array = [23, 45, 25, 67, 24, 86, 12, 94, 37]

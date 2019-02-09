@@ -89,6 +89,7 @@ import toPower from './to-power'
 import truncate from './truncate'
 import validateEmail from './validateEmail'
 import removeElementByIndex from './removeElementByIndex'
+import clone from './clone'
 
 export {
   reverseArrayInPlace,
@@ -182,4 +183,5 @@ export {
   largest,
   hex2hsl,
   removeElementByIndex,
+  clone,
 }

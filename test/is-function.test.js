@@ -4,7 +4,7 @@ import {isFunction} from '../src'
 test('check a function', t => {
   const func = () => {}
   const expected = true
-  const actual  = isFunction(func)
+  const actual = isFunction(func)
   t.deepEqual(actual, expected)
 })
 
@@ -22,7 +22,7 @@ test('check a string', t => {
   t.deepEqual(actual, expected)
 })
 
-test('check a boolean', t=> {
+test('check a boolean', t => {
   const boolean = true
   const expected = false
   const actual = isFunction(boolean)

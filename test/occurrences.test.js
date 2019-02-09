@@ -1,5 +1,5 @@
 import test from 'ava'
-import { occurrences } from '../src'
+import {occurrences} from '../src'
 
 test('empty substring', t => {
   t.deepEqual(occurrences('', ''), 1)
@@ -34,10 +34,10 @@ test('overlap', t => {
 })
 
 test('overlap no occurrences', t => {
-  t.deepEqual(occurrences('', 'foo', true), 0);
-  t.deepEqual(occurrences('abc', 'foo', true), 0);
-  t.deepEqual(occurrences('boo', 'foo', true), 0);
-  t.deepEqual(occurrences('fooofooofooofoo', 'foofoo', true), 0);
-  t.deepEqual(occurrences('blafobooblahfoboblah', 'foo', true), 0);
-  t.deepEqual(occurrences('fofofofaooooofo', 'foo', true), 0);
+  t.deepEqual(occurrences('', 'foo', true), 0)
+  t.deepEqual(occurrences('abc', 'foo', true), 0)
+  t.deepEqual(occurrences('boo', 'foo', true), 0)
+  t.deepEqual(occurrences('fooofooofooofoo', 'foofoo', true), 0)
+  t.deepEqual(occurrences('blafobooblahfoboblah', 'foo', true), 0)
+  t.deepEqual(occurrences('fofofofaooooofo', 'foo', true), 0)
 })
