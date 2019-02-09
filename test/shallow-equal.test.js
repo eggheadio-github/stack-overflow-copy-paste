@@ -5,13 +5,13 @@ test('Compares two equal objects', t => {
   const a = {
     a: 1,
     b: 2,
-    c: 'test'
+    c: 'test',
   }
 
   const b = {
     a: 1,
     b: 2,
-    c: 'test'
+    c: 'test',
   }
 
   const actual = shallowEqual(a, b)
@@ -23,13 +23,13 @@ test('Compares two equal objects symmetrically', t => {
   const a = {
     a: 1,
     b: 2,
-    c: 'test'
+    c: 'test',
   }
 
   const b = {
     a: 1,
     b: 2,
-    c: 'test'
+    c: 'test',
   }
 
   t.deepEqual(shallowEqual(a, b), shallowEqual(b, a))
@@ -38,13 +38,13 @@ test('Compares two equal objects symmetrically', t => {
 test('Compares two inequal objects', t => {
   const a = {
     a: 1,
-    b: 2
+    b: 2,
   }
 
   const b = {
     a: 1,
     b: 2,
-    c: 'test'
+    c: 'test',
   }
 
   const actual = shallowEqual(a, b)
@@ -55,12 +55,12 @@ test('Compares two inequal objects', t => {
 test('Compares two inequal objects symmetrically', t => {
   const b = {
     a: 1,
-    b: 2
+    b: 2,
   }
 
   const a = {
     a: 1,
-    b: 3
+    b: 3,
   }
 
   t.deepEqual(shallowEqual(a, b), shallowEqual(b, a))
@@ -79,7 +79,7 @@ test('Compares only own properties of given objects', t => {
   const b = {
     a: 1,
     b: 2,
-    c: 'test'
+    c: 'test',
   }
 
   const actual = shallowEqual(a, b)
@@ -100,7 +100,7 @@ test('Compares only own properties of given objects symmetrically', t => {
   const b = {
     a: 1,
     b: 2,
-    c: 'test'
+    c: 'test',
   }
 
   t.deepEqual(shallowEqual(a, b), shallowEqual(b, a))
@@ -109,7 +109,7 @@ test('Compares only own properties of given objects symmetrically', t => {
 test('Returns true when the same object is compared to itself', t => {
   const a = {
     a: 1,
-    b: 'test'
+    b: 'test',
   }
 
   const actual = shallowEqual(a, a)
@@ -121,7 +121,7 @@ test('Returns true when the same object is compared to itself', t => {
 test('Returns false when one of the objects is null', t => {
   const a = {
     a: 1,
-    b: 'test'
+    b: 'test',
   }
 
   const actual = shallowEqual(a, null)

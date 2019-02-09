@@ -1,5 +1,5 @@
 import test from 'ava'
-import { rollDice } from '../src'
+import {rollDice} from '../src'
 
 test('Dice value should not be greater than 6', t => {
   const max = 6

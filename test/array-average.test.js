@@ -1,6 +1,6 @@
 import test from 'ava'
 import {
-  arrayAverage
+  arrayAverage,
 } from '../src'
 
 test('Calculates the average of an array', t => {

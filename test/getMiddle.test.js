@@ -1,5 +1,5 @@
 import test from 'ava'
-import { getMiddle } from '../src'
+import {getMiddle} from '../src'
 
 test('Gets middle character of given string with a length of uneven number of characters ', t => {
   const string = 'rumpelstiltskin'
