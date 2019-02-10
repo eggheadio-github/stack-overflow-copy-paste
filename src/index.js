@@ -90,6 +90,7 @@ import truncate from './truncate'
 import validateEmail from './validateEmail'
 import removeElementByIndex from './removeElementByIndex'
 import clone from './clone'
+import arrMultiply from './array-multiplier'
 
 export {
   reverseArrayInPlace,
@@ -184,4 +185,5 @@ export {
   hex2hsl,
   removeElementByIndex,
   clone,
+  arrMultiply,
 }
