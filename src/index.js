@@ -90,6 +90,7 @@ import truncate from './truncate'
 import validateEmail from './validateEmail'
 import removeElementByIndex from './removeElementByIndex'
 import clone from './clone'
+import arrMultiply from './array-multiplier'
 import second from './second'
 
 export {
@@ -185,5 +186,6 @@ export {
   hex2hsl,
   removeElementByIndex,
   clone,
+  arrMultiply,
   second,
 }
