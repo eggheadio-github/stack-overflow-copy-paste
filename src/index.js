@@ -91,6 +91,7 @@ import validateEmail from './validateEmail'
 import removeElementByIndex from './removeElementByIndex'
 import clone from './clone'
 import arrMultiply from './array-multiplier'
+import second from './second'
 
 export {
   reverseArrayInPlace,
@@ -186,4 +187,5 @@ export {
   removeElementByIndex,
   clone,
   arrMultiply,
+  second,
 }
