@@ -13,7 +13,7 @@ test('throws error if number is less than zero', t => {
   //const actual = dec2bin(original)
   const error = t.throws(() => {
     dec2bin(original)
-  },RangeError)
+  }, RangeError)
   t.is(error.message, 'Input must be a positive integer')
 })
 

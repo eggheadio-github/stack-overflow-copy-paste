@@ -88,7 +88,10 @@ import timeSince from './timeSince'
 import toPower from './to-power'
 import truncate from './truncate'
 import validateEmail from './validateEmail'
-import armstrong from './armstrong'
+import removeElementByIndex from './removeElementByIndex'
+import clone from './clone'
+import arrMultiply from './array-multiplier'
+import second from './second'
 
 export {
   reverseArrayInPlace,
@@ -181,5 +184,8 @@ export {
   numberToString,
   largest,
   hex2hsl,
-  armstrong,
+  removeElementByIndex,
+  clone,
+  arrMultiply,
+  second,
 }

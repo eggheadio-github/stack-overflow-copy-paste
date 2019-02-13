@@ -2,8 +2,8 @@ import test from 'ava'
 import {revstring} from '../src'
 
 test('string with only letters', t => {
-  const str = "abcdefG"
-  const expected = "Gfedcba"
+  const str = 'abcdefG'
+  const expected = 'Gfedcba'
   const result = revstring(str)
   t.is(expected, result)
 })
