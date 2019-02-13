@@ -37,7 +37,7 @@
     "babel-preset-stage-2": "6.13.0",
     "babel-register": "6.11.6",
     "codecov.io": "0.1.6",
-    "commitizen": "^3.0.5",
+    "commitizen": "^4.0.5",
     "cross-env": "2.0.0",
     "cz-conventional-changelog": "1.1.7",
     "eslint": "3.2.2",
