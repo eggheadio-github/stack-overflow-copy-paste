@@ -93,6 +93,7 @@ import clone from './clone'
 import arrMultiply from './array-multiplier'
 import second from './second'
 import armstrong from './armstrong'
+
 export {
   reverseArrayInPlace,
   isOdd,
@@ -188,5 +189,5 @@ export {
   clone,
   arrMultiply,
   second,
-  armstrong
+  armstrong,
 }
