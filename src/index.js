@@ -92,6 +92,7 @@ import removeElementByIndex from './removeElementByIndex'
 import clone from './clone'
 import arrMultiply from './array-multiplier'
 import second from './second'
+import armstrong from './armstrong'
 
 export {
   reverseArrayInPlace,
@@ -188,4 +189,5 @@ export {
   clone,
   arrMultiply,
   second,
+  armstrong,
 }
