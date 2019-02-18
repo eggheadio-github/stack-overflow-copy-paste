@@ -93,6 +93,7 @@ import clone from './clone'
 import arrMultiply from './array-multiplier'
 import second from './second'
 import armstrong from './armstrong'
+import getTriangleType from './getTriangleType'
 
 export {
   reverseArrayInPlace,
@@ -190,4 +191,6 @@ export {
   arrMultiply,
   second,
   armstrong,
+  getTriangleType,
+  
 }
