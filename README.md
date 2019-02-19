@@ -1,3 +1,5 @@
+# [ARCHIVED: READ MORE](https://github.com/eggheadio-github/stack-overflow-copy-paste/issues/257)
+
 # stack-overflow-copy-paste
 
 > A collection of utility JavaScript functions copy/pasted and slightly modified from StackOverflow answers 😀
